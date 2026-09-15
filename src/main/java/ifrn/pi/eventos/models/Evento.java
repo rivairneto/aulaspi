@@ -30,6 +30,12 @@ public class Evento {
 		return nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Evento [id=" + id + ", nome=" + nome + ", local=" + local + ", data=" + data + ", horario=" + horario
+				+ "]";
+	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
